@@ -7,7 +7,7 @@
 
 A modern, responsive Trello-inspired task management application frontend built with React. This application provides an intuitive drag-and-drop interface for managing tasks across different status categories.
 
-## 🔗 Important Links
+## Important Links
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Site-2ea44f?style=for-the-badge&logo=vercel)](https://trello-0.netlify.app/)
 [![Client Repository](https://img.shields.io/badge/Client_Code-GitHub-blue?style=for-the-badge&logo=github)](https://github.com/azizurrahman-zero/trello_client-side)
@@ -45,14 +45,7 @@ A modern, responsive Trello-inspired task management application frontend built 
 Before you begin, ensure you have the following installed:
 
 - Node.js (v14 or higher)
-- Mong## Table of Contents
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Environment Variables](#environment-variables)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)oDB Atlas account or local MongoDB installation
+- MongoDB Atlas account or local MongoDB installation
 - npm (Node Package Manager)
 
 ## Installation
@@ -66,6 +59,8 @@ Before you begin, ensure you have the following installed:
 2. Install dependencies:
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
 3. Create a `.env` file in the root directory with your MongoDB credentials:
@@ -78,6 +73,8 @@ Before you begin, ensure you have the following installed:
 4. Start the server:
    ```bash
    npm start
+   # or
+   yarn start
    ```
 
 5. The server will be running at `http://localhost:5000`
@@ -108,9 +105,10 @@ Before you begin, ensure you have the following installed:
 ```
 trello_server-side/
 ├── node_modules/
-├── .env                  # Environment variables
-├── .gitignore            # Git ignore file
-├── index.js              # Main application entry point
-├── package.json          # Project dependencies and scripts
-└── README.md             # Project documentation
+├── .env
+├── .gitignore
+├── index.js
+├── package-lock.json
+├── package.json
+└── README.md
 ```
