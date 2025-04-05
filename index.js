@@ -43,12 +43,6 @@ async function run() {
         });
       }
     });
-    
-    app.get("/allTickets", async (req, res) => {
-      const cursor = allListCollection.find({});
-      const tickets = await cursor.toArray();
-      res.send(tickets);
-    });
 
     // add ticket
     app.post("/add", async (req, res) => {
